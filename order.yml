@@ -8,11 +8,8 @@ spring:
     password: root
     url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf-8&useSSL=false
     username: root
-zone:
-  wuhan
-
-#spring cloud bus 刷新配置
-spring:
+    
+  #spring cloud bus 刷新配置
   rabbitmq:
     host: 192.168.99.10
     port: 5672
