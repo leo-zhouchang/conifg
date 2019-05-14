@@ -18,3 +18,5 @@ spring:
   cloud:
     bus:
       enabled: true
+      trace:
+        enabled:  true
