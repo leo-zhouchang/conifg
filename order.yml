@@ -18,9 +18,3 @@ spring:
   cloud:
     bus:
       enabled: true
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include:  bus-refresh
