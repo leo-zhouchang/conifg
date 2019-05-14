@@ -1,4 +1,3 @@
-branch:master
 eureka:
   client:
     service-url:
