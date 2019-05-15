@@ -16,5 +16,6 @@ spring:
       bindings:
         input-message:
           group:  order
+          content-type: application/json
     
     #spring.cloud.stream.bindings.input-message.group=order
