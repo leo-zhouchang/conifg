@@ -1,12 +1,12 @@
     
 env: 
-  dev102
+  proudct-dev
 
 server:
-  port: '8082'
+  port: '8081'
 spring:
   application:
-    name: order
+    name: product
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: root
