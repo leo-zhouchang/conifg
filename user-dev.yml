@@ -1,0 +1,15 @@
+env: 
+  dev-user-service
+
+server:
+  port: '8084'
+spring:
+  redis:
+    host: 192.168.99.100
+    port: 6379
+    timeout:  1000
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf-8&useSSL=false
+    username: root
